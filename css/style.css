@@ -242,6 +242,7 @@ header button {
 /* our team */
 .team_container {
   margin-top: 267px;
+  padding-bottom: 66px;
 }
 .team_container p:first-child {
   display: flex;
