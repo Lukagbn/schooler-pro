@@ -232,9 +232,323 @@ header button {
   transform: translate(-50%, -50%);
 }
 /* our team */
+.team_container {
+  margin-top: 267px;
+}
+.team_container p:first-child {
+  display: flex;
+  align-items: center;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  margin-bottom: 10px;
+  color: #2e7af4;
+}
+.team_container p:first-child::before {
+  content: " ";
+  margin-right: 11px;
+  width: 15px;
+  height: 2px;
+  background-color: #2e7af4;
+}
+.staff_cards {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: space-between;
+}
+.team_container h2 {
+  font-family: "Gilroy";
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+.staff_cards .card {
+  background-color: #ffffff;
+}
+.team_container .card img {
+  width: 191px;
+  height: 191px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  margin-top: 45px;
+}
+.team_container .card p {
+  font-family: "Open Sans";
+  margin-top: 15px;
+  font-weight: 700;
+  size: 20px;
+  line-height: 25px;
+  letter-spacing: 0px;
+}
+.backcolor {
+  background-color: #f8f8f8;
+}
+.team_container .staff_cards p {
+  text-align: center;
+}
 /* mission and vision */
+.txt-container {
+  max-width: 650px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.txt-container p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 0.5);
+}
+.txt-container p:first-child {
+  display: flex;
+  align-items: center;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  color: #2e7af4;
+  margin-top: 39px;
+  margin-bottom: 10px;
+}
+.txt-container p:first-child::before {
+  content: "";
+  margin-right: 11px;
+  width: 15px;
+  height: 2px;
+  background-color: #2e7af4;
+}
+.txt-container h2 {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  color: rgba(0, 0, 0, 1);
+  line-height: 100%;
+  letter-spacing: 0px;
+  margin-bottom: 39px;
+}
+.img-container {
+  max-width: 642px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.img-container {
+  max-width: 642px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 17px;
+  flex-wrap: wrap;
+}
+.content-container img {
+  border-radius: 10px;
+}
+.content-container img:nth-child(1) {
+  max-width: 483px;
+  width: 100%;
+  max-height: 372px;
+  height: 100%;
+}
+.content-container img:nth-child(2) {
+  max-width: 446px;
+  width: 100%;
+  max-height: 276px;
+  height: 100%;
+  align-self: end;
+}
+.content-container img:nth-child(3) {
+  max-width: 458px;
+  width: 100%;
+  max-height: 351px;
+  height: 100%;
+}
+.school-section {
+  margin-top: 111px;
+}
 /* how it works */
 /* what do your want to learn */
 /* blogs */
 /* contact us */
+.input_section {
+  display: flex;
+  flex-direction: column;
+}
+.input_section .blue_contact:first-child {
+  display: flex;
+  align-items: center;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  margin-bottom: 10px;
+  color: #2e7af4;
+}
+.input_section .blue_contact:first-child::before {
+  content: " ";
+  margin-right: 11px;
+  width: 15px;
+  height: 2px;
+  background-color: #2e7af4;
+}
+.input_section h2 {
+  font-family: "Gilroy";
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+.input_section .gray_text {
+  font-weight: 400;
+  size: 20px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  color: #a5a5a5;
+}
+.next_steps {
+  max-width: 426px;
+  max-height: 124px;
+  margin-top: 72px;
+  color: #2e7af4;
+}
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 63px;
+  height: 61px;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  background-color: #c1d9ff;
+  color: #2e7af4;
+  border-radius: 6px;
+}
+.step1 p {
+  max-width: 507px;
+  max-height: 50px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  color: #a5a5a5;
+  margin-left: 21px;
+}
+.step1 {
+  display: flex;
+  margin-top: 49px;
+}
+.form_inputs {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 186px;
+}
+.form_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 685px;
+  width: 100%;
+  max-height: 973px;
+  height: 100%;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  flex-direction: column;
+}
+.input {
+  font-weight: 400;
+  size: 20px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  max-width: 624px;
+  width: 100%;
+  max-height: 70px;
+  height: 100%;
+  margin: 25px;
+}
+.input input {
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  max-width: 624px;
+  width: 100%;
+  max-height: 70px;
+  height: 100%;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  color: #000000;
+  padding: 25px;
+}
+.input label {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0px;
+}
+#role-select {
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  max-width: 624px;
+  width: 100%;
+  max-height: 70px;
+  height: 100%;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  color: #000000;
+  padding: 25px;
+  opacity: 0.5;
+}
+.strength {
+  display: flex;
+  justify-content: space-between;
+}
+.strength .input {
+  max-width: 299px;
+  width: 100%;
+  max-height: 70px;
+  border-radius: 4px;
+}
+.submit-button {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  background-color: #2e7af4;
+  padding: 20px 55px 22px 56px;
+  color: #ffffff;
+  border-radius: 4px;
+  outline: none;
+  align-self: self-start;
+  border: none;
+  margin-top: 40px;
+  margin-left: 34px;
+  margin-bottom: 52px;
+}
+
 /* footer */
