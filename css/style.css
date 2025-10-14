@@ -267,6 +267,7 @@ header button {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-top: 45px;
 }
 .team_container h2 {
   font-family: "Gilroy";
