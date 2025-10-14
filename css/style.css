@@ -285,7 +285,7 @@ header button {
   text-align: center;
   flex-wrap: wrap;
 }
-.team_container .card img {
+.staff_cards .card img {
   margin-top: 17px;
   margin-bottom: 17px;
   max-width: 191px;
