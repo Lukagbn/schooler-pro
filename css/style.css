@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Regular.woff2") format("woff2"),
+    url("../fonts/OpenSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1370px;
+  width: 100%;
+  margin: auto;
+}
+/* header */
+/* banner */
+/* about us */
+/* our team */
+/* mission and vision */
+/* how it works */
+/* what do your want to learn */
+/* blogs */
+/* contact us */
+/* footer */
