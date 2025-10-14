@@ -17,8 +17,220 @@
   margin: auto;
 }
 /* header */
+header img {
+  max-width: 308px;
+  width: 100%;
+  max-height: 48px;
+}
+header {
+  background-color: #ffffff;
+  margin-bottom: 19px;
+}
+header a {
+  text-decoration: none;
+}
+header a {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #2e7af4;
+}
+header .home {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+header ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+header .container {
+  margin-top: 21px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+header button {
+  font-family: "Open Sans";
+  font-weight: 700;
+  padding: 12px 17px 11px 24px;
+  color: #ffffff;
+  background-color: #2e7af4;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
 /* banner */
+.hero-section {
+  display: flex;
+  justify-content: center;
+  background-image: url(../img/Group\ 50.png);
+  width: 100%;
+  max-height: 806px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-direction: column;
+}
+.hero-section-container {
+  margin-top: 191px;
+  max-width: 650px;
+}
+.hero-section p {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0;
+  color: #2e7af4;
+}
+.hero-section-container .hero-section-details {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000000;
+}
+.hero-section-container h1 {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-size: 90px;
+  font-weight: 900;
+  line-height: 100%;
+  margin-top: 10px;
+  margin-bottom: 9px;
+}
+.hero-section-container p:first-child {
+  text-transform: uppercase;
+}
+.hero-section-container button {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 14px 40px 15px 41px;
+  margin-top: 41px;
+  color: #ffffff;
+  background-color: #2e7af4;
+  border: none;
+  border-radius: 3px;
+}
+.slider {
+  margin-top: 156px;
+  margin-bottom: 45px;
+  justify-content: center;
+  display: flex;
+  gap: 7px;
+}
+.dot {
+  background-color: #d1d1d1;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.blue {
+  width: 23px;
+  background-color: #2e7af4;
+  border-radius: 5.5px;
+}
 /* about us */
+.text-wrapper {
+  max-width: 677px;
+}
+.text-section {
+  margin-top: 207px;
+}
+.text-section .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.text-wrapper p:first-child {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  margin-bottom: 10px;
+  color: #2e7af4;
+}
+.text-wrapper p:first-child::before {
+  content: "";
+  margin-right: 11px;
+  width: 15px;
+  height: 2px;
+  background-color: #2e7af4;
+}
+.text-wrapper h2 {
+  margin-bottom: 38px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #000000;
+}
+.text-wrapper p {
+  display: flex;
+  align-items: center;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.img-wrapper img {
+  max-width: 632px;
+  width: 100%;
+  height: 100%;
+}
+.text-wrapper button {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  padding: 26px 35px 23px 16px;
+  border: none;
+  background-color: rgba(46, 122, 244, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+}
+.triangle-container {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(227, 237, 253, 1);
+  margin-right: 32px;
+  border: 5px solid rgba(43, 177, 253, 0.38);
+}
+.triangle {
+  position: absolute;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid rgba(46, 122, 244, 1);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 /* our team */
 .team_container {
   margin-top: 267px;
