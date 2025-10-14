@@ -407,6 +407,7 @@ header button {
   flex-direction: column;
   align-items: center;
   background-color: #f8f8f8;
+  margin-top: 84px;
 }
 
 h3 {
@@ -545,6 +546,7 @@ h3 {
   background-color: #effaff;
   margin: auto;
   height: 318px;
+  margin-top: 50px;
 }
 /* blogs */
 /* contact us */
