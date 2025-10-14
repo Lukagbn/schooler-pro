@@ -402,7 +402,150 @@ header button {
   margin-top: 111px;
 }
 /* how it works */
+.block-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f8f8;
+}
+
+h3 {
+  display: flex;
+  color: #2e7af4;
+  text-decoration: none;
+  margin-top: 120px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.box1 {
+  margin-top: 10px;
+}
+
+.box1 p {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 100%;
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 100px 180px;
+  margin-top: 83px;
+  margin-bottom: 86px;
+}
+
+.box {
+  max-width: 305px;
+  min-height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box-head {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 100%;
+  font-family: "Poppins", sans-serif;
+  width: 99px;
+  height: 99px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-body {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #555555;
+}
+
+.box:nth-child(1) .box-head {
+  background-color: #ffeeb0;
+  color: #c8af56;
+}
+.box:nth-child(2) .box-head {
+  background-color: #d6f0ff;
+  color: #59a6d1;
+}
+.box:nth-child(3) .box-head {
+  background-color: #c1d9ff;
+  color: #7b9bce;
+}
+.box:nth-child(4) .box-head {
+  background-color: #d4fffc;
+  color: #53a9a3;
+}
+.box:nth-child(5) .box-head {
+  background-color: #ffe4e4;
+  color: #bc8181;
+}
+.box:nth-child(6) .box-head {
+  background-color: #ffcdf1;
+  color: #b973a5;
+}
 /* what do your want to learn */
+.card-banner-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  align-items: center;
+}
+.card-banner-text {
+  max-width: 715px;
+  width: 100%;
+}
+.card-banner-text p {
+  color: #2e7af4;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  padding-bottom: 10px;
+}
+
+.card-banner-text h2 {
+  color: #000000;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 100%;
+}
+
+.card-banner-button {
+  max-width: 150px;
+  width: 100%;
+  height: 67px;
+  background-color: #2e7af4;
+  border-radius: 5px;
+  text-align: center;
+}
+.card-banner-button button {
+  border: none;
+  max-width: 150px;
+  width: 100%;
+  height: 67px;
+  background-color: #2e7af4;
+  border-radius: 5px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.card-banner {
+  max-width: 1920px;
+  width: 100%;
+  background-color: #effaff;
+  margin: auto;
+  height: 318px;
+}
 /* blogs */
 /* contact us */
 .input_section {
