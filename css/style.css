@@ -24,6 +24,9 @@
   width: 100%;
   margin: auto;
 }
+button{
+  cursor: pointer;
+}
 /* header */
 header img {
   max-width: 308px;
